@@ -6,11 +6,11 @@
 
 Este é o repositório do nosso projeto onde você pode facilmente encontrar todas as fontes utilizadas na sua elaboração
 
-* [horizon-infra:](https://github.com/osmarfranco/horizon/tree/main/horizon-infra) (Terraform e Docker)
+* [horizon-infra](https://github.com/osmarfranco/horizon/tree/main/horizon-infra) (Terraform e Docker)
 * [horizon-backend](https://github.com/osmarfranco/horizon/tree/main/horizon-backend) (Spring Boot Java)
 * [horizon-frontend](https://github.com/osmarfranco/horizon/tree/main/horizon-frontend) (React Javascript)
 
-Você pode navegar pelo projeto clicando [aqui](http://ec2-15-229-106-147.sa-east-1.compute.amazonaws.com/)!
+Você pode navegar pelo projeto clicando [aqui](http://horizoncars.com.br/)! (indisponível temporariamente)
 
 Outros links
 

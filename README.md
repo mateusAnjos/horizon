@@ -23,9 +23,9 @@ Outros links
 
 **Desenvolvedores:**
 
-* [Bruno Zeulli](https://www.linkedin.com/in/brunozeulli/)
-* [João Fauth](https://www.linkedin.com/in/jo%C3%A3o-fauth-62b961223/)
-* [Johnny Wesley](https://www.linkedin.com/in/johnny-wesley-contact/)
-* [Mateus Anjos](https://www.linkedin.com/in/mateus-anjosdefaria/)
-* [Osmar Franco](https://www.linkedin.com/in/osmarfranco/)
-* [Renato Lino](https://www.linkedin.com/in/renatolinobarros/)
+* [Bruno Zeulli](https://www.linkedin.com/in/brunozeulli/) (Back-End)
+* [João Fauth](https://www.linkedin.com/in/jo%C3%A3o-fauth-62b961223/) (Back-End e Dados)
+* [Johnny Wesley](https://www.linkedin.com/in/johnny-wesley-contact/) (Back-End)
+* [Mateus Anjos](https://www.linkedin.com/in/mateus-anjosdefaria/) (Front-End)
+* [Osmar Franco](https://www.linkedin.com/in/osmarfranco/) (DevOps e QA)
+* [Renato Lino](https://www.linkedin.com/in/renatolinobarros/) (Front-End)

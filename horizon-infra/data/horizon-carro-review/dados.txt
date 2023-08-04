@@ -1,0 +1,19 @@
+Marca: Mercedes
+
+Modelo: AMG GT
+
+Categoria: Asphalt
+
+Descrição: Domine a estrada com o Mercedes-AMG GT. Potência avassaladora, 0 a 100 km/h em 3,7s. Design deslumbrante e linhas aerodinâmicas. Uma combinação perfeita de luxo e desempenho. Experimente a emoção de dirigir um verdadeiro ícone automotivo, onde cada curva é uma obra de arte em movimento.
+
+Assentos: 2
+
+Motor:  V8
+
+Bagagem: Nenhuma
+
+Câmbio: Automático
+
+Blindagem: Não
+
+Portas: 2

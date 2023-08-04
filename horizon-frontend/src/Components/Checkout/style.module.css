@@ -1,0 +1,392 @@
+.missingField {
+  border: 1px solid red;
+}
+
+.h3{
+  margin-top:1rem;
+  font-size: x-large;
+}
+
+.bodyCheckout {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--platinum);
+    padding: 1rem;
+
+    justify-content:space-between;
+  }
+
+ .formField {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    text-align: center;
+    padding: 1rem;
+    font-size: 30px;
+  }
+
+  .cardetailCheckout {
+  
+    height: fit-content;
+    text-align: center;
+    grid-row: 1 /  2;
+    background-color: var(--white-smoke);
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px -4px rgba(105,104,105,0.67);
+    }
+
+  .cardetailCheckout h2{
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .cardetailCheckout img{
+    width: 450px;
+    border-radius: 15px;
+    object-fit: cover;
+    min-width: 50%;
+  }
+  
+  .cardetailAddress{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-top: 1rem;
+  }
+  
+  .cardetailAddress p{
+    margin-left: 0.5rem;
+  }
+
+  
+  .cardetailDate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+
+  .cardetailCheckout h3{
+    font-size: medium;
+    font-weight: bold;
+    padding: 0;
+    }
+
+  .cardetailCheckout h4{
+    margin-top: 2rem;
+    font-size: small;
+    font-weight: lighter;
+  }  
+
+  .cardetailDate p{
+  font-size: large;    
+  font-weight: bold;
+  }
+
+  .cardetailDate input{
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  background-color: #fff;
+  border: none;
+  width: 40%;
+  }
+
+.checkoutBtn{
+    font-weight:bold;
+    font-size:18px;
+    border-radius:5px;
+    width:100%;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    background-color:var(--indigo);
+    color: var(--white-smoke);
+    border:none;
+    cursor:pointer;
+    padding:1rem;
+    box-shadow:none;
+    transition:0.3s; 
+  }
+
+.checkoutBtn:hover{
+    background-color:var(--white-smoke);
+    color:var(--indigo);
+    -webkit-box-shadow: 10px 10px 8px -4px rgba(105,104,105,0.67);
+    -moz-box-shadow: 10px 10px 8px -4px rgba(105,104,105,0.67);
+    box-shadow: 10px 10px 8px -4px rgba(105,104,105,0.67);
+}
+
+
+.formCheckout{
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 2rem;
+  row-gap: 3rem;
+  background-color: var(--white-smoke);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px -4px rgba(105,104,105,0.67);
+}
+
+
+.formCheckout div{
+  display: flex;
+  flex-direction: column;
+}
+
+.formCheckout .input-mui{
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  background-color: #fff;
+  border: none;
+}
+
+.formCheckout label{
+  font-size: medium;
+  text-align: left;
+}
+
+.calendarCheckout{
+  background-color: var(--white-smoke);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px -4px rgba(105,104,105,0.67);
+}
+.cssCalendario{
+  align-items: center;
+}
+
+
+.timeformCheckout{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  background-color: var(--white-smoke);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px -4px rgba(105,104,105,0.67);
+  font-size: medium;
+}
+
+.timeformCheckout div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: smaller;
+}
+.timeformCheckout div p{
+  margin-left: 0.5rem;
+  margin: 1rem 0;
+}
+
+.timeformCheckout select{
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  width: 100%;
+  background-color: #fff;
+  border: none;
+}
+
+/*Modal*/
+.modal{
+  width: 100%;
+  height: 141vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0,0,0,.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color:var(--white-smoke);
+  position: absolute;
+  top: 12rem;
+  width: 60%;
+  height: 40%;
+  color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  gap:4rem
+}
+.paragraphs{
+  display: flex;
+  flex-direction: column;
+  align-items:center
+}
+.modalImg{
+  width: 30%;
+}
+
+.infoInferior{
+  background-color: var(--white-smoke);
+  padding: 1rem
+}
+
+.line{
+  margin: 0.5rem 0;
+  border-top: 0.15rem solid var(--orange);
+}
+
+.colunaInferior{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.colunaInferior h3{
+  font-size: small;
+}
+
+.colunaInferior p{
+  font-size: x-small;
+  width: 70%;
+}
+.driverData{
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (max-width: 600px) {
+  .bodyCheckout {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--platinum);
+    padding: 10px;
+    width: 100%;
+    justify-content:space-between;
+  }
+  .colunaInferior{
+    flex-direction: column;
+  }
+  .formField {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .cardetailCheckout {
+    position: unset;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .formCheckout{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 0.5rem;
+  }
+
+  .cardetailDate{
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  }
+  .content{
+    gap:1rem;
+    padding:1rem;
+    text-align: center;
+  }
+  .paragraphs{
+  gap:0.5rem;
+  }
+  .modalImg{
+    width: 40%;
+  }
+
+  .cardetailCheckout{
+    margin-top:1rem
+  }
+  .cardetailCheckout img{
+    width:100%
+  }
+
+@media (min-width: 601px) and (max-width: 1280px) {
+  .bodyCheckout{
+    display: flex;
+    flex-direction: column
+  }
+  .colunaInferior{
+    flex-direction: column;
+  }
+  .formField {
+    padding: 0;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .cardetailCheckout {
+    position: unset;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .formCheckout{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 1rem;
+    padding:10px
+  }
+
+  .cardetailDate{
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .modal{
+    height: 282vh;
+    width: 103%
+  }
+  .container{
+    width: 70%;
+    height: 20%;
+  }
+  .content{
+    gap:1rem;
+    padding:1rem;
+    text-align: center;
+  }
+  .paragraphs{
+  gap:0.5rem;
+  }
+  .modalImg{
+    width: 40%;
+  }
+}
+@media (min-width: 1281px) and (max-width: 1730px) {
+  .modal{
+    width: 120%;
+    height: 160%;
+  }
+  .container{
+    width: 70%;
+    height: 30%;
+  }
+  .content{
+    gap:1rem;
+    padding:1rem;
+    text-align: center;
+  }
+  .paragraphs{
+  gap:0.5rem;
+  }
+  .modalImg{
+    width: 30%;
+  }
+  .formCheckout{
+    row-gap: 1rem;
+    padding:2rem
+  }
+}

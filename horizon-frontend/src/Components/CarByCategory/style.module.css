@@ -1,0 +1,26 @@
+.categoryTexts{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    margin-bottom:2rem;
+}
+.title{
+    font-size:6rem;
+    color:var(--orange)
+}
+.description{
+    padding:0
+}
+@media (max-width: 600px) {
+    .title{
+        font-size:4rem;
+    }
+    .description{
+        font-size:1rem;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 800px) {}
+@media (min-width: 801px) and (max-width: 1000px) {}
+@media (min-width: 1001px) and (max-width: 1730px) {}

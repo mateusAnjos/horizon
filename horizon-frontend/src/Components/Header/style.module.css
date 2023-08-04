@@ -1,0 +1,220 @@
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 4rem
+}
+.logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.logoImg{
+    width: 158px;
+    height: 60px;
+}
+.logoImgMobile{
+    display: none;
+}
+.slogan{
+    color: var(--red);
+    font-weight: bold
+}
+
+
+.btns{
+    display:flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center
+}
+
+.signupBtn{
+    cursor:pointer;
+    border: 1px solid var(--white-smoke);
+    border-radius:5px;
+    height: 2rem;
+    width:10rem;
+    font-weight: bold;
+    background-color: var(--platinum);
+    color:var(--red);
+    transition:0.3s;
+}
+.signupBtn:hover{
+    background-color: var(--indigo);
+    color: var(--white-smoke)
+}
+.logoutBtn{
+    cursor:pointer;
+    border: 1px solid var(--white-smoke);
+    border-radius:5px;
+    height: 2rem;
+    width:10rem;
+    font-weight: bold;
+    background-color: var(--platinum);
+    color:var(--red);
+    transition:0.3s;
+}
+.logoutBtn:hover{
+    background-color: var(--indigo);
+    color: var(--white-smoke)
+}
+.loginBtn{
+    cursor:pointer;
+    border: 1px solid var(--white-smoke);
+    border-radius:5px;
+    height: 2rem;
+    width:10rem;
+    font-weight:bold;
+    transition:0.3s
+}
+.loginBtn:hover{
+    background-color: var(--indigo);
+    color: var(--white-smoke)
+}
+
+.navBtn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    display: none;
+    font-size: 1.8rem;
+}
+
+.tituloMenu{
+    display: none;
+}
+
+hr{
+    display: none;
+}
+.loginGreetings{
+    display:flex;
+    flex-direction:column;
+    align-items:center
+}
+.mobileBtns{
+    display:flex;
+    flex-direction:row;
+    gap:1rem;
+    margin-left:1rem
+}
+
+/*Tamanho Mobile*/
+
+
+@media (max-width: 619px) {
+    
+    .header{
+        padding-top:1rem;   
+    }
+   
+    .slogan{
+        display: none;
+    }
+
+    .logoImg{
+        display: none;
+    }
+    .logoImgMobile{
+        display: flex;
+        height: 40px;   
+    }
+    .navBtn{
+        display: flex;
+    }
+     /*Configura o menu para virar o menu hamburguer aberto e aplica o transform para tirar ele de tela*/
+    .btns{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 50%;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 1.5rem;
+        background-color: var(--indigo);
+        visibility: hidden;
+        transition: 1s;
+        transform: translateX(120vh);
+    }
+    /*Retira a animação que tira o menu da tela*/
+    .responsiveNav{
+        display: flex;
+        transform: none;
+        visibility: visible;
+    }
+
+    .navClosebtn{
+        position: absolute;
+        top: 0.5rem;
+        left: 5%;
+    }
+
+    .tituloMenu{
+        display: grid;
+        width: 100%;
+        padding-top: 4rem;
+        background-color: var(--platinum);
+
+    }
+    .tituloMenu p{
+        text-align: left;
+        margin-left: 0.5rem;
+        font-size: 40px;
+        color: var(--indigo);
+    }
+    .loginBtn{
+        color: var(--night);
+        background-color: var(--white-smoke);
+        border-color: var(--indigo);
+        
+    }
+    .signupBtn{
+        color: var(--red);
+        background-color: var(--white-smoke);
+        border-color: var(--indigo);
+    }
+    hr{
+        display: flex;
+        width: 100%;
+    }
+    .loginGreetings{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-right:0.5rem;
+        margin-left:0.5rem;
+        align-items:center;
+        gap:0.3rem
+    }
+    .loginGreetings p{
+        color: var(--white-smoke);
+        font-size:1rem
+    }
+    .loginGreetings img{
+        border:2px solid var(--white-smoke);
+        border-radius:50%;
+        max-width:3rem
+    }
+}
+  
+/*Tamanho tablet*/
+@media (min-width: 601px) and (max-width: 1000px) {
+    
+    .mobileBtns{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-left:0.5rem
+    }
+
+}

@@ -1,0 +1,97 @@
+
+.content{
+    background-color: var(--platinum);
+    padding:2rem;
+    overflow:hidden;
+}
+.form{
+    display: flex;
+    flex-direction: column
+}
+.carInfos{
+    background-color: var(--white-smoke);
+    padding:1rem;
+    border-radius:5px;
+    margin-bottom:1rem;
+    display: flex;
+    flex-direction:column;
+    
+}
+.inputs{
+    display: flex;
+    gap:4rem;
+}
+.inputField{
+    display: flex;
+    flex-direction:column
+}
+.column{
+    display: flex;
+    flex-direction:column;
+    width:200px;
+    justify-content: space-between;
+}
+
+.categoryInfos{
+    background-color: var(--white-smoke);
+    padding:1rem;
+    border-radius:5px;
+    margin-bottom:1rem;
+    display: flex;
+    flex-direction:column;
+}
+.carProperties{
+    background-color: var(--white-smoke);
+    padding:1rem;
+    border-radius:5px;
+    margin-bottom:1rem;
+    display: flex;
+    flex-direction:column;
+    width:auto;
+    flex-wrap:wrap
+}
+
+.imageUploadDiv{
+    background-color: var(--white-smoke);
+    padding:1rem;
+    border-radius:5px;
+    margin-bottom:1rem;
+    display: flex;
+    flex-direction:column;
+    
+}
+.submitBtnDiv{
+    background-color: var(--white-smoke);
+    padding:1rem;
+    border-radius:5px;
+    margin-bottom:1rem;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+}
+.submitBtn{
+    width:10%;
+    color: var(--orange);
+    font-weight:bold;
+}
+input{
+   background-color: transparent;
+   outline:none;
+    border:none;
+    border-bottom:1px solid var(--orange)
+}
+input[type="file"]{
+    border:none
+}
+select{
+    background-color: transparent;
+   outline:none;
+    border:none;
+    border-bottom:1px solid var(--orange)
+}
+textarea{
+    background-color: transparent;
+   outline:none;
+    border:none;
+    border-bottom:1px solid var(--orange)
+}

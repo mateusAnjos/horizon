@@ -1,0 +1,19 @@
+Marca: Porsche 
+
+Modelo: 911 GT2 RS
+
+Categoria: Wild
+
+Descrição: Emoção desenfreada no Porsche 911 GT2 RS. Potência de 520 cavalos, 0 a 100 km/h em 3,2s. Aceleração pura e histórico de vitórias nas pistas. Design agressivo e exclusivo. Uma experiência intensa e apaixonante que desafia os limites da performance.
+
+Assentos: 2
+
+Motor:  6 cilindros
+
+Bagagem:  Nenhuma
+
+Câmbio: Manual
+
+Blindagem: Não
+
+Portas: 2

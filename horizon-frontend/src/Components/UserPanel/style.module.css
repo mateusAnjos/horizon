@@ -1,0 +1,103 @@
+.content{
+    min-height: 100vh;
+    padding: 2rem;
+    background: var(--platinum);
+}
+
+.content h2{
+    padding-top: 1rem;
+
+}
+
+.cardDados{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+    background-color: var(--white-smoke);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px -4px rgba(105,104,105,0.67);
+}
+
+.card{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2rem;
+    row-gap: 3rem;
+    background-color: var(--white-smoke);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px -4px rgba(105,104,105,0.67);
+}
+
+.reserva{
+    display: flex;
+    flex-direction: row;
+    height: 12rem;
+    border-radius:15px;
+    background-color:var(--platinum);
+    -webkit-box-shadow: 10px 10px 8px -4px rgba(105,104,105,0.67);
+    -moz-box-shadow: 10px 10px 8px -4px rgba(105,104,105,0.67);
+    box-shadow: 10px 10px 8px -4px rgba(105,104,105,0.67);
+    margin: 0.5rem;
+}
+
+.reservaTexto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.reserva img{
+    height: auto;
+    width: 50%;
+    object-fit: cover;
+    border-radius:15px 0px 0px 15px;
+}
+
+.retirada{
+    display: flex;
+    margin-right: 2rem;
+}
+
+.retirada div{
+    margin-right: 2rem;
+}
+.paragraph{
+    font-weight:400
+}
+
+@media (max-width: 500px){
+   .paragraph{
+    font-weight:400
+   }
+   .cardDados{
+    display:flex;
+    flex-direction:column
+   }
+
+   .reserva{
+    flex-direction: column;
+    height:24rem
+   }
+   .reserva img{
+    width:100%;
+    border-radius: 15px 15px 0 0
+   }
+}
+@media (max-width: 1000px) {
+    .paragraph{
+        font-weight:400
+       }
+    .card{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .cardDados{
+        display:flex;
+        flex-direction:column
+       }
+}

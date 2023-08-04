@@ -1,0 +1,13 @@
+FROM node
+
+WORKDIR /app
+
+COPY /grupo-6/horizon-frontend/package.json /app
+
+RUN npm install
+
+COPY /grupo-6/horizon-frontend/ /app
+
+EXPOSE 5173
+
+CMD ["npm", "run", "dev"]

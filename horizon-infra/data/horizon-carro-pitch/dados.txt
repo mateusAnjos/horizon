@@ -1,0 +1,19 @@
+Marca: Audi
+
+Modelo: R8
+
+Categoria: Asphalt
+
+Descrição: Desperte a paixão dos entusiastas com o exclusivo Audi R8. Um ícone da engenharia alemã, com um motor V10 que ruge com 562 cavalos de potência. Design marcante, aerodinâmica impecável. Cada detalhe é uma obra de arte, feito para cativar os olhos e acelerar o coração. Uma experiência de condução que só os privilegiados podem desfrutar.
+
+Assentos: 2
+
+Motor: V10
+
+Bagagem: Nenhuma
+
+Câmbio: Automático
+
+Blindagem: Não
+
+Portas: 2

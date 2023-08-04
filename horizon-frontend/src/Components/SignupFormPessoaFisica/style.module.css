@@ -1,0 +1,102 @@
+
+.content{
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title{
+    color:var(--indigo);
+    text-align:center;
+    margin-bottom:3rem
+}
+.signupForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.formLabel{
+    font-weight:bold;
+    margin-top:1rem;
+    color:var(--indigo);
+}
+.formInput{
+    border:none;
+    border-bottom:1px solid #B2BEB5	;
+    width: 20rem;
+    margin-top:1rem;
+    background-color:transparent
+
+}
+.formInput:focus{
+    outline: none;
+}
+.formSmallerInput{
+    border:none;
+    border-bottom:1px solid #B2BEB5	;
+    width: 8rem;
+    margin-top:1rem;
+    background-color:transparent
+}
+.formSmallerInput:focus{
+    outline: none;
+}
+
+.firstLine{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: space-between;
+}
+.leftColumn{
+    display: flex;
+    flex-direction: column
+}
+.rightColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.signupButton{
+    margin-top:4rem;
+    color:var(--indigo);
+    font-weight:bold;
+    height:3rem;
+    width:10rem;;
+    background-color:var(--white-smoke);
+    border:2px solid var(--indigo); 
+    border-radius:5px;
+    transition:0.3s;
+    cursor:pointer;
+    margin-left:auto;
+    margin-right:auto;
+}
+.signupButton:hover{
+    background-color:var(--indigo);
+    color:var(--white-smoke);
+}
+.span{
+    display: flex;
+    gap:5px;
+    margin-top:2rem
+}
+.loginSpan{
+    text-decoration:none;
+}
+.inputBox{
+    display: flex;
+    justify-content: space-between;
+    color:var(--indigo);
+    font-weight:bold;
+}
+
+/*Código para sumir com as setas nos campso numéricos*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }

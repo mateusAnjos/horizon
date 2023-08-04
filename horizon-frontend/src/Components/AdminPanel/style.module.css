@@ -1,0 +1,11 @@
+.container{
+    height: 100vh;
+    padding: 2rem;
+    background-color:var(--platinum)
+}
+.button{
+    margin-right:1rem
+}
+.ul{
+    list-style:none
+}

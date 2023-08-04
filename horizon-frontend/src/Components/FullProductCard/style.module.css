@@ -1,0 +1,37 @@
+
+.fullCard{
+    background-color: var(--white-smoke);
+    overflow:hidden;
+    border:1px solid red;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:400px;
+    margin-bottom:2rem;
+}
+.carImgDiv{
+    max-width:300px;
+    display:flex;
+    
+    align-items:left
+}
+/* img{
+    max-width:90%
+} */
+
+p{
+    font-weight: bold
+}
+.carTexts{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    justify-content:center;
+    align-items:right;
+}
+.carInfos{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:right;
+}
